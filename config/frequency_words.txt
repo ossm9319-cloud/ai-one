@@ -31,15 +31,13 @@ combat
 civiles
 伤亡
 morts
-反叛军
-恐怖分子
 
 # 关键人物
 Goita
+萨勒赫
 Assimi Goita
 军政府
 总理
-萨勒赫
 
 # 资源与经济
 黄金
