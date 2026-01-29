@@ -88,8 +88,8 @@ rss:
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
     - id: "BrantPhilip"
-      name: "BrantPhilip_ (X)"
-      url: "https://x.com/BrantPhilip_/rss"
+      name: "BrantPhilip_"
+      url: "https://nitter.net/BrantPhilip_/rss" # 使用 nitter 更稳定
       # max_age_days: 0               # 示例：只推送1天内的文章
 
     - id: "KargnHasret"
@@ -97,18 +97,26 @@ rss:
       url: "http://https://x.com/KargnHasret_/rss"
       # max_age_days: 0               # 示例：推送7天内的文章（更新较慢的博客）
     
-    - id: "SahelAlerte"
-      name: "SahelAlerte_ (X)"
-      url: "https://x.com/SahelAlerte_/rss"
-      # max_age_days: 0
-      enabled: false                  # 禁用
+     - id: "rfi_afrique"
+      name: "RFI 非洲"
+      url: "https://www.rfi.fr/fr/rss/afrique.xml"
 
-    # 自定义源示例
-    # - id: "custom-feed"
-    #   name: "自定义源"
-    #   url: "https://example.com/feed.xml"
-    #   enabled: false
-    #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
+    - id: "france24_afrique"
+      name: "France 24 非洲"
+      url: "https://www.france24.com/fr/rss/france-monde/afrique"
+
+    - id: "bbc_africa"
+      name: "BBC 非洲"
+      url: "http://feeds.bbci.co.uk/news/world/africa/rss.xml"
+
+    - id: "reuters_africa"
+      name: "路透社 非洲"
+      url: "http://feeds.reuters.com/ReutersAfrica"
+
+    # --- 马里本地视角 ---
+    - id: "bamada"
+      name: "Bamada.net (马里新闻)"
+      url: "https://bamada.net/feed"
 
 
 # ===============================================================
@@ -506,3 +514,12 @@ advanced:
     slack: 4000
   batch_send_interval: 3              # 批次发送间隔（秒）
   feishu_message_separator: "━━━━━━━━━━━━━━━━━━━"
+  
+  # config.yaml
+crawler:
+  # ... 其他配置
+  headers:
+    # 模拟真实浏览器，这是解决“采集失败”的关键
+    User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  # 如果 X 官方一直失败，尝试切换到 nitter (反向代理)
+  # twitter_rss_source: "nitter" # 可选: "official", "nitter"
