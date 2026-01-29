@@ -40,7 +40,7 @@ Assimi Goita
 总理
 
 # 资源与经济
-黄金
+金矿
 or
 锂矿
 lithium
@@ -70,6 +70,33 @@ Russie
 Wagner
 法军
 armée française
+
+# 英文关键词
+Mali
+FAMA
+JNIM
+gold
+lithium
+attack
+terrorist
+embargo
+sanction
+truck
+civilians
+
+# 法文关键词 (非常重要)
+Mali
+FAMA
+JNIM
+or
+lithium
+attaque
+terroriste
+embargo
+sanction
+camion
+citerne
+civils
 
 # ==========================================
 # 🚫 屏蔽词 (去广告/娱乐)
