@@ -1,1 +1,116 @@
 
+# ==========================================
+# 🇲🇱 马里地缘政治与南部地区监控
+# ==========================================
+
+# 核心国家
+马里
+Mali
+
+# 南部重点地区 (萨勒赫通常指这一带)
+Sélé
+Sélingué
+Kéniéba
+Kayes
+Tombouctou
+Gao
+Ménaka
+Kidal
+
+# 武装组织与军事
+fama
+jnim
+莫克塔·乌尔德·达达赫
+Daouda
+武装分子
+terroriste
+attaque
+袭击
+交火
+combat
+平民
+civiles
+伤亡
+morts
+
+# 关键人物
+Goita
+萨勒赫
+Assimi Goita
+军政府
+总理
+
+# 资源与经济
+金矿
+or
+锂矿
+lithium
+矿山
+pillage
+抢劫
+经济封锁
+embargo
+制裁
+sanction
+油罐车
+camion-citerne
+citerne
+
+# 军事与冲突
+交火
+combat
+伤亡
+morts
+平民
+civiles
+撤离
+evacuation
+俄罗斯
+Russie
+瓦格纳
+Wagner
+法军
+armée française
+
+# 英文关键词
+Mali
+FAMA
+JNIM
+gold
+lithium
+attack
+terrorist
+embargo
+sanction
+truck
+civilians
+
+# 法文关键词 (非常重要)
+Mali
+FAMA
+JNIM
+or
+lithium
+attaque
+terroriste
+embargo
+sanction
+camion
+citerne
+civils
+
+# ==========================================
+# 🚫 屏蔽词 (去广告/娱乐)
+# ==========================================
+广告
+promotion
+promo
+节日
+fête
+音乐会
+concert
+明星
+célébrité
+娱乐
+divertissement
+???? 
